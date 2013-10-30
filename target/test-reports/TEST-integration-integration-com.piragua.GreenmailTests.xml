@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" name="com.piragua.GreenmailTests" tests="1" time="0.359" timestamp="2013-10-30T17:27:21">
+  <properties />
+  <testcase classname="com.piragua.GreenmailTests" name="testSendMail" time="0.358" />
+  <system-out><![CDATA[--Output from testSendMail--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSendMail--
+]]></system-err>
+</testsuite>

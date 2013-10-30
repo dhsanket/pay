@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="0" name="GreenmailTests" package="com.piragua" tests="1" time="0.359" timestamp="2013-10-30T17:27:21">
+      <properties />
+
+      <testcase classname="com.piragua.GreenmailTests" name="testSendMail" time="0.358" />
+
+      <system-out><![CDATA[--Output from testSendMail--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSendMail--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="1" name="AccountTests" package="com.pay" tests="1" time="0.277" timestamp="2013-10-30T17:27:11">
+      <properties />
+
+      <testcase classname="com.pay.AccountTests" name="testSomething" time="0.234" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="2" name="PaymentsControllerTests" package="com.pay" tests="1" time="0.638" timestamp="2013-10-30T17:27:11">
+      <properties />
+
+      <testcase classname="com.pay.PaymentsControllerTests" name="testSomething" time="0.635" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
