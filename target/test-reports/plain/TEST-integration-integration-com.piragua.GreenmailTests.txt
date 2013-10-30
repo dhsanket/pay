@@ -1,5 +1,5 @@
 Testsuite: com.piragua.GreenmailTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.359 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.394 sec
 ------------- Standard Output ---------------
 --Output from testSendMail--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.359 sec
 --Output from testSendMail--
 ------------- ---------------- ---------------
 
-Testcase: testSendMail took 0.358 sec
+Testcase: testSendMail took 0.394 sec

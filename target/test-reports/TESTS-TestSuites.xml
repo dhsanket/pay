@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="0" name="GreenmailTests" package="com.piragua" tests="1" time="0.359" timestamp="2013-10-30T17:27:21">
+  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="0" name="GreenmailTests" package="com.piragua" tests="1" time="0.394" timestamp="2013-10-30T20:24:51">
       <properties />
 
-      <testcase classname="com.piragua.GreenmailTests" name="testSendMail" time="0.358" />
+      <testcase classname="com.piragua.GreenmailTests" name="testSendMail" time="0.394" />
 
       <system-out><![CDATA[--Output from testSendMail--
 ]]></system-out>
@@ -12,10 +12,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="1" name="AccountTests" package="com.pay" tests="1" time="0.277" timestamp="2013-10-30T17:27:11">
+  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="1" name="AccountTests" package="com.pay" tests="1" time="0.222" timestamp="2013-10-30T20:24:43">
       <properties />
 
-      <testcase classname="com.pay.AccountTests" name="testSomething" time="0.234" />
+      <testcase classname="com.pay.AccountTests" name="testSomething" time="0.187" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -24,15 +24,20 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" id="2" name="PaymentsControllerTests" package="com.pay" tests="1" time="0.638" timestamp="2013-10-30T17:27:11">
+  <testsuite errors="1" failures="0" hostname="Sankets-MacBook-Air.local" id="2" name="PaymentsControllerTests" package="com.pay" tests="1" time="0.937" timestamp="2013-10-30T20:24:43">
       <properties />
 
-      <testcase classname="com.pay.PaymentsControllerTests" name="testSomething" time="0.635" />
+      <testcase classname="com.pay.PaymentsControllerTests" name="testPay" time="0.935">
+          <error message="Cannot get property &apos;balance&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;balance&apos; on null object
+	at com.pay.PaymentsControllerTests.testPay(PaymentsControllerTests.groovy:24)
+</error>
 
-      <system-out><![CDATA[--Output from testSomething--
+      </testcase>
+
+      <system-out><![CDATA[--Output from testPay--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testSomething--
+      <system-err><![CDATA[--Output from testPay--
 ]]></system-err>
 
   </testsuite>

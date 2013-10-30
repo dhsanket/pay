@@ -1,10 +1,15 @@
 Testsuite: com.pay.PaymentsControllerTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.638 sec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.937 sec
 ------------- Standard Output ---------------
---Output from testSomething--
+--Output from testPay--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testSomething--
+--Output from testPay--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.636 sec
+Testcase: testPay took 0.934 sec
+	Caused an ERROR
+Cannot get property 'balance' on null object
+java.lang.NullPointerException: Cannot get property 'balance' on null object
+	at com.pay.PaymentsControllerTests.testPay(PaymentsControllerTests.groovy:24)
+

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" name="com.pay.PaymentsControllerTests" tests="1" time="0.638" timestamp="2013-10-30T17:27:11">
+<testsuite errors="1" failures="0" hostname="Sankets-MacBook-Air.local" name="com.pay.PaymentsControllerTests" tests="1" time="0.937" timestamp="2013-10-30T20:24:43">
   <properties />
-  <testcase classname="com.pay.PaymentsControllerTests" name="testSomething" time="0.635" />
-  <system-out><![CDATA[--Output from testSomething--
+  <testcase classname="com.pay.PaymentsControllerTests" name="testPay" time="0.935">
+    <error message="Cannot get property &apos;balance&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;balance&apos; on null object
+	at com.pay.PaymentsControllerTests.testPay(PaymentsControllerTests.groovy:24)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testPay--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
+  <system-err><![CDATA[--Output from testPay--
 ]]></system-err>
 </testsuite>

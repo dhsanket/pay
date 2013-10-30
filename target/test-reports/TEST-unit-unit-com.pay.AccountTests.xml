@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" name="com.pay.AccountTests" tests="1" time="0.277" timestamp="2013-10-30T17:27:11">
+<testsuite errors="0" failures="0" hostname="Sankets-MacBook-Air.local" name="com.pay.AccountTests" tests="1" time="0.222" timestamp="2013-10-30T20:24:43">
   <properties />
-  <testcase classname="com.pay.AccountTests" name="testSomething" time="0.234" />
+  <testcase classname="com.pay.AccountTests" name="testSomething" time="0.187" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--

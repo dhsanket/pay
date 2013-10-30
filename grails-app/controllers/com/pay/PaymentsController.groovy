@@ -19,12 +19,12 @@ class PaymentsController {
 				sendMail {
 					to toAccount.email
 					subject "You have recieved funds"
-					body ' You have recieved GBP' + params.amount + ' from ' + fromAccount.name
+					body ' You have recieved GBP' + params.amount + ' from ' + fromAccount.email
 				  }
 				sendMail {
 					to fromAccount.email
 					subject "You have sent funds"
-					body ' You have sent GBP' + params.amount + ' to ' + toAccount.name
+					body ' You have sent GBP' + params.amount + ' to ' + toAccount.email
 				  }
 			}
 			//return a model for a transaction

@@ -1,5 +1,5 @@
 Testsuite: com.pay.AccountTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.277 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.222 sec
 ------------- Standard Output ---------------
 --Output from testSomething--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.277 sec
 --Output from testSomething--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.234 sec
+Testcase: testSomething took 0.188 sec
